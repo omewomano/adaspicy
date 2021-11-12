@@ -341,4 +341,27 @@
   border-color: #6f42c1;
   background-color: rgba(111,66,193,.6);
 }
+.carousel-caption{
+  color: #6f42c1;
+  text-shadow: 2px 2px #000;
+}
 
+
+/* mobile css begins */
+@media (max-width:480px)  {
+  .carousel-inner{
+    border: solid 4px gold;
+    height: 120px;
+  }
+  .crs-img{
+    height:100%;
+  }
+  .border-right{
+    border-right: none;
+  }
+  .pointer, .pointer2{
+
+  font-size: 12px;
+  }
+}
+/* mobile css ends */
