@@ -346,6 +346,15 @@
   text-shadow: 2px 2px #000;
 }
 
+.centered{
+  text-align: center;
+}
+#contact-us{
+  background-color: #CC3126;
+  background: rgb(255,0,0);
+  background: linear-gradient(180deg, rgba(255,0,0,1) 32%, rgba(0,3,4,1) 96%);
+  color:#fff;
+}
 
 /* mobile css begins */
 @media (max-width:480px)  {
