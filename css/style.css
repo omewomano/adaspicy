@@ -310,7 +310,6 @@
 }
 .testimonial{
   border-top:1px solid #6f42c1;
-  border-bottom: 1px solid #6f42c1;
 }
 .rounded-image{
   border-radius: 100%;
@@ -355,7 +354,20 @@
   background: linear-gradient(180deg, rgba(255,0,0,1) 32%, rgba(0,3,4,1) 96%);
   color:#fff;
 }
-
+ul{
+  list-style-type: none;
+}
+.contact-options{
+  padding-left: 0px !important;
+}
+.contact-options a:nth-child(odd) li{
+  background-color: rgba(111,66,193, 0.8);
+  color: #fff;
+}
+.contact-options a:nth-child(even) li{
+  background-color: rgba(255,255,255, 0.9);
+  color: grey;
+}
 /* mobile css begins */
 @media (max-width:480px)  {
   .carousel-inner{
