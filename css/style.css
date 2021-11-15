@@ -371,7 +371,6 @@ ul{
 /* mobile css begins */
 @media (max-width:480px)  {
   .carousel-inner{
-    border: solid 4px gold;
     height: 120px;
   }
   .crs-img{
@@ -383,10 +382,6 @@ ul{
   .pointer, .pointer2{
 
   font-size: 12px;
-  }
-  footer p{
-    border: solid 2px brown;
-    text-align: right !important;
   }
 }
 /* mobile css ends */
