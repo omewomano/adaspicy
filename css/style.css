@@ -384,5 +384,9 @@ ul{
 
   font-size: 12px;
   }
+  footer p{
+    border: solid 2px brown;
+    text-align: right !important;
+  }
 }
 /* mobile css ends */
